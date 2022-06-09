@@ -1,3 +1,7 @@
 const app = document.querySelector('#app');
 
-app.innerHTML = '<h1>Hello World</h1>';
+if (app) {
+  app.innerHTML = '<h1>Hello World</h1>';
+}
+
+export { app };
